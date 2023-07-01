@@ -1,0 +1,29 @@
+Hello sir/madam, Hope you are doing great!
+
+
+-------------------------- Method # 1 to Run project on your Machine ----------------------
+
+You will find a file named as "packages_used_in_project.txt" , which contain all module names with pip installation command;
+
+So, install them all and execute the below command in your terminal or just run app.py file as you run any python file:
+				      python app.py
+
+
+-------------------------- Method # 2 to Run project on your Machine -----------------------
+
+Strategy: Create a anaconda environment using provided YAML file (conda_requirements_yml.yml) 
+
+To create anaconda environment;
+
+Install anaconda on your machine, open anaconda and  Navigate to Environments on the left then click on import  and then select "conda_requirements_yml.yml" from the Project folder. 
+
+Now activate the created enviorement and launch the  VS Code in anaconda and execute "app.py"  from the Project folder.
+
+This will create a server for the flask App, and follow that link.
+
+Thank you!!!!!
+
+
+
+
+
