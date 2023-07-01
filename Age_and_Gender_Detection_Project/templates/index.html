@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bo otstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container{
+background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg");
+height: 100vh;
+background-size: cover;
+padding: 30px;
+}
+.bg-container1{
+background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg");
+background-size: cover;
+height: 100vh;
+padding: 10px;
+}
+.bg-container2{
+background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg");
+height: 100vh;
+background-size: cover;
+padding: 30px;
+}
+.main-heading{
+text-align: center;
+color: #ffffff;
+font-family: "Bree Serif";
+font-size: 50px;
+}
+.image{
+padding: 10px;
+height: 500px;
+width: 600px;
+border-radius: 20px;
+}
+.button{
+text-align: center;
+margin: 20px;
+border-radius: 10px;
+width: 120px;
+border-width: 0px;
+height: 40px;
+font-family: "Bree Serif";
+}
+
+.para{
+font-family: "Bree Serif";
+font-size: large;
+color: #ffffff;
+margin: 200px;
+text-align: center;
+}
+.para1{
+font-family: "Bree Serif";
+color: #ffffff;
+margin: 15px;
+font-size: 25px;
+}
+.para2{
+font-family: "Bree Serif";
+font-size: large;
+color: #ffffff;
+margin: 150px;
+text-align: center;
+}
+.para3{
+font-family: "Bree Serif";
+font-size: large;
+color: #ffffff;
+margin: 50px;
+text-align: center;
+}
+.list{
+font-family: "Bree Serif";
+color: #ffffff;
+}
+.card{
+background-color: black;
+padding: 0px;
+height: 60px;
+margin: 10px;
+}
+.name{
+font-family: "Bree Serif";
+color: #ffffff;
+margin: 15px;
+font-size: 15px;
+}
+.image2{
+height: 280px;
+width: 370px;
+margin: 2px;
+}
+.title{
+font-family: "Bree Serif";
+color: #ffffff;
+margin-left: 20px;
+margin-right: 190px;
+}
+</style>
+</head>
+<body>
+<div id="sectionhome">
+<div class="bg-container">
+<h1 class ="main-heading"><b>Age and Gender Detection Using Deep Learning</b><h1>
+
+<p class="para">" Deep Learning has found huge applications in the fields of Computer vision. Some of the most important applications of computer vision are in the fields that deal with facial data. Face Detection and recognition are being widely used in security-based applications. In this project, we are going to talk about two of the most important applications of face-based deep learning, age and gender prediction from a facial image."</p>
+
+<div class="card d-flex flex-row justify-content-center">
+<p class="para1"onclick="display('sectionbio')">Project Description</p>
+<p class="para1" onclick="display('sectionwriting')">Predict</p>
+<p class="para1" onclick="display('sectionaward')">Team Members</p>
+<p class="para1" onclick="display('sectionmore')">Github link</p>
+</div>
+<div class="d-flex flex-row justify-content-end">
+</div>
+</div>
+</div>
+<div id="sectionbio">
+<div class="bg-container1">
+<h1 class="main-heading">Descriprion of Age and Gender Detection using Deep Learning</h1>
+</hr>
+<p class="para2">Age and gender detection using deep learning is a computer vision task that uses convolutional neural networks (CNNs) to automatically determine a person's age and gender from images or videos. The process involves collecting and annotating a dataset, preprocessing the images or frames, selecting a CNN architecture, and training the model using the labeled data. The model is evaluated to measure its performance, and once satisfactory, it can be tested and deployed for real-world applications. During inference, the trained model takes an input image or video frame and predicts the age and gender labels based on learned patterns. The accuracy of the model depends on the quality of the training data and design choices made during development. Age and gender detection using deep learning is an ongoing research area, with its effectiveness influenced by data diversity and model.
+</p>
+<div class="d-flex flex-row justify-content-center">
+<button class="bn btn-secondary button" onclick="display('sectionhome')">Home</button>
+</div>
+</div>
+</div>
+<div id="sectionwriting">
+<div class="bg-container2">
+<h1 class="main-heading">Age and Gender Detection</h1>
+<div class="d-flex flex-row justify-content-center">
+<form action="/uploader" method="post" enctype="multipart/form-data">
+<input type="file" name="file1">
+<button type="submit" class="btn btn-primary">predict</button>
+</form>
+</div>
+<p class="para3">NOTE: The Ideal Size for input image is <b>1280 x 1500 px</b></p>
+<div class="d-flex flex-row justify-content-center">
+<button class="bn btn-secondary button" onclick="display('sectionhome')">Home</button>
+</div>
+</div>
+</div>
+<div id="sectionaward">
+<div class="bg-container">
+<h1 class="main-heading">Team Members</h1>
+<div class=" d-flex flex-row">
+<img src="https://media.licdn.com/dms/image/D4E03AQFDGYJ_OXbrwA/profile-displayphoto-shrink_800_800/0/1677241881801?e=2147483647&v=beta&t=gk8QsFO63VBXTepck0pBMUSZE01snjwoovVLftMH0TY" class="image2"/>
+<img src="https://media.licdn.com/dms/image/D4E03AQHpZJ-qECYWJA/profile-displayphoto-shrink_800_800/0/1682360249188?e=2147483647&v=beta&t=4L8Ze40Kk9XeusY_lsq8cUhYFXCQ3KsM6l3ytscTj1s" class="image2"/>
+<img src="https://media.licdn.com/dms/image/D5603AQHXwI0YIQRXLQ/profile-displayphoto-shrink_800_800/0/1682054482963?e=2147483647&v=beta&t=Oy8bBBV1KQ1Dsea6lgV-ycJBMyJX77QBF4X-2WFCrKQ" class="image2"/>
+<img src="https://media.licdn.com/dms/image/C5603AQHNwN2nGmToww/profile-displayphoto-shrink_200_200/0/1661629146293?e=1691020800&v=beta&t=Jmwja7XGdFh0u4RLKRUU9RYfBUYnjYwDJTlfWVO7lfQ" class="image2"/>
+
+</div>
+<div class="d-flex flex-row justify-content-center">
+<p class="title"><a href="https://www.linkedin.com/in/naveen-dharshanala-4188a0266/">Dharshanala Naveen </a></p>
+<p class="title"><a href="https://www.linkedin.com/in/harathi-thanikonda-964167203/">Thanikonda Harathi </a></p>
+<p class="title"><a href="https://www.linkedin.com/in/namani-harshith-667331202/">Namani Harshith </a></p>
+<p class="title"><a href="https://www.linkedin.com/in/ippili-karthik-kumar-a14213204/">Ippili Karthik Kumar </a></p>
+</p>
+</div>
+<div class="d-flex flex-row justify-content-center">
+<button class="bn btn-secondary button" onclick="display('sectionhome')">Home</button>
+</div>
+</div>
+</div>
+<div id="sectionmore">
+<div class="bg-container">
+<h2 class="main-heading">Github Link</h2>
+<div class=" para d-flex flex-row justify-content-center">
+<a href="https://github.com/naveendharshanala/Age_and_Gender_Detection_Project">CLICK HERE</a>
+</div>
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+<div class="d-flex flex-row justify-content-center">
+<button class="bn btn-secondary button" onclick="display('sectionhome')">Home</button>
+</div>
+<h5 class="main-heading">Thank you!!!!!</h5>
+</body>
+</html>
